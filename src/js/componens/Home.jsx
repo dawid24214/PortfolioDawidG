@@ -1,12 +1,18 @@
 import React from "react";
-import HomeHeader from './HomeHeader.jsx';
-import HomeThreeColumns from './HomeThreeColumns.jsx';
+import {Link} from "react-router-dom";
 
-const Home = () =>{
+export const Home = () =>{
     return(
         <div>
-            <HomeHeader/>
-            <HomeThreeColumns/>
+            <a>Jestem tutaj</a>
+            <Link to='/HomeHeader'>
+                <button>Idz do HomeHeader</button>
+            </Link>
+
+            <Link to='/HomeThreeColumns'>
+                <button>HomeThreeColumns</button>
+            </Link>
+
         </div>
     )
 }

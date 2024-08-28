@@ -1,8 +1,7 @@
 import React from "react";
 
-const HomeThreeColumns = () => {
+export  const HomeThreeColumns = () => {
     return (
-        <></>
+        <div>/HomeThreeColumns</div>
     )
 }
-export default HomeThreeColumns;
