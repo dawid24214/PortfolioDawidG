@@ -6,11 +6,10 @@ export const Home = () =>{
         <div>
             <a>Jestem tutaj</a>
             <Link to='/HomeHeader'>
-                <button>Idz do HomeHeader</button>
+                <button>Zaloguj się</button>
             </Link>
-
             <Link to='/HomeThreeColumns'>
-                <button>HomeThreeColumns</button>
+                <button>Zarejestruj się</button>
             </Link>
 
         </div>
