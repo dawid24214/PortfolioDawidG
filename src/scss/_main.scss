@@ -1,0 +1,5 @@
+@import "src/scss/generic/reset";
+@import "./settings/fonts";
+body{
+  font-family:$font-base;
+}
