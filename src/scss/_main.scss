@@ -1,7 +1,7 @@
 @import "src/scss/generic/reset";
 @import "./settings/fonts";
 @import "../scss/settings/mixin";
-@import "component/home";
+@import "../scss/component/home";
 body{
   font-family:$font-base;
 }
