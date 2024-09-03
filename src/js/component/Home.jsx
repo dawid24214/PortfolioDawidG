@@ -8,10 +8,10 @@ export const Home = () =>{
             <header className='header__container'>
                 <section className='header__registration container'>
                     <Link to='/HomeHeader' className='homeheader__container'>
-                        <button>Zaloguj się</button>
+                        <a href=''>Zaloguj</a>
                     </Link>
                     <Link to='/HomeThreeColumns' className='homethreecolumns__container'>
-                        <button>Zarejestruj się</button>
+                        <a href=''>Załóż konto</a>
                     </Link>
                 </section>
 

@@ -16,13 +16,25 @@ header{
   .header__registration{
     margin-right: 8px;
     margin-top: 7px;
-    border: 3px solid black;
-    button{
+    font-size: 17px;
+
+    a{
+      max-width: 8px;
+      text-decoration: none;
+      margin: 2px;
+      color: rgba(21,10,9,0.49);
+      :hover{
+        border: 2px solid #ffd700;
+      }
+
+    }
+
+    /*button{
       width: 115px;
       height: 50px;
       font-size: 15px;
 
-    }
+    }*/
   }
 
   .header__menu{
