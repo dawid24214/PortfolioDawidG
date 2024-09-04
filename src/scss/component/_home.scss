@@ -1,9 +1,10 @@
 @import "src/scss/settings/mixin";
+@import "src/scss/settings/fonts";
 
 
 
 header{
-  height: 150px;
+  height: 84px;
   max-width: 100%;
   border: 5px solid red;
   margin: 5px;
@@ -38,20 +39,19 @@ header{
   }
 
   .header__menu{
-    width: 60%;
+    width: 50%;
     height: 30px;
-    border: 5px solid blue;
     margin: 7px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     a{
+      font-size: $font-base;
+      color: black;
       text-decoration: none;
       :hover{
-        color: black;
-        border: 1px solid black;
-
-
+        border: 1px solid #00000049;
       }
     }
   }
