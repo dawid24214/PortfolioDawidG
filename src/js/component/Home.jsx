@@ -39,6 +39,18 @@ export const Home = () =>{
                 </section>
             </header>
 
+            <section className='banner__container container'>
+                <div className='conrainer__text'>
+                <h1>Zacznij pomagać!</h1>
+                <p>Oddaj niechciane rzeczy w zaufane ręce</p>
+                </div>
+
+                <div className='container__button'>
+                    <Link to=''><a href=''>ODDAJ RZECZY</a></Link>
+                    <Link to=''><a href=''>ZORGANIZUJ ZBIÓRKE</a></Link>
+                </div>
+            </section>
+
         </>
     )
 }
